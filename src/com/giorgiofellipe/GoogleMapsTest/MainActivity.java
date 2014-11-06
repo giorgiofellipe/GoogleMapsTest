@@ -63,6 +63,8 @@ public class MainActivity extends SherlockActivity {
                 //Enable/Disable RotateGesture
 //                map.getUiSettings().setRotateGesturesEnabled(true);
 
+                //Changing MAP Type
+//                map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
                 placeMarkers();
                 positionTheCamera();
             }
