@@ -45,6 +45,24 @@ public class MainActivity extends SherlockActivity {
                         "Sorry! unable to create maps", Toast.LENGTH_SHORT)
                         .show();
             } else {
+                //Shows your current location (defaults to false)
+//                map.setMyLocationEnabled(true);
+
+                //Enable/Disable zoom buttons (defaults do enabled)
+//                map.getUiSettings().setZoomControlsEnabled(false);
+
+                //Disable zooming gesture functionality
+//                map.getUiSettings().setZoomGesturesEnabled(false);
+
+                //Enable/Disable compass
+//                map.getUiSettings().setCompassEnabled(true);
+
+                //EnableDisable MyLocationButton
+//                map.getUiSettings().setMyLocationButtonEnabled(true);
+
+                //Enable/Disable RotateGesture
+//                map.getUiSettings().setRotateGesturesEnabled(true);
+
                 placeMarkers();
                 positionTheCamera();
             }
